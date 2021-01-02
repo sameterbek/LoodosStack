@@ -11,12 +11,12 @@ namespace LoodosStack
         public static int stackCount;
         static void Main(string[] args)
         {
-            var arraySize = 12;
+            var arraySize = 30;
             //var arraySize = Convert.ToInt32(Console.ReadLine());
             //stackCount = Convert.ToInt32(Console.ReadLine());
             stack = new char[arraySize];
 
-            stackCount = 2;
+            stackCount = 3;
 
             FlagStack(stack, stackCount);
             Push(2, 't');
